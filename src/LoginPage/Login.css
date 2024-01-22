@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 100vh;
+}
+.left_side{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 427px;
+    background-color: rgb(191, 0, 255);
+    text-align: center;
+    border-radius: 10px;
+}
+.left_side_contains h1{
+    color: red;
+    margin-top: -50px;
+}
+.left_side_contains hr{
+    max-width: 280px;
+    margin-left: 8px;
+    margin-bottom: 20px;
+}
+.left_side_contains h3{
+    color: white;
+}
+.main_div{
+    padding: 30px;
+    background-color: rgba(128, 128, 128, 0.301);
+    border-radius: 10px;
+}
+h1{
+    margin-bottom: 20px;
+    color: rgb(191, 0,255);
+}
+.inputWithIcon{
+    /* display: flex; */
+    position: relative;
+}
+.icon{
+    position: absolute;
+    left: 5px;
+    top: 45%;
+    transform: translateY(-50%);
+}
+.username, .password{
+    margin-bottom: 10px;
+    margin-top: 5px;
+    width: 85%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 30px;
+}
+.eyeIcon{
+    position: absolute;
+    margin-left: 190px;
+    margin-top: 10px;
+}
+.forget_password{
+    text-align: end;
+    flex-direction: end;
+}
+.forget_password:hover{
+    text-decoration: underline;
+}
+form button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 7px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(191, 0,255);
+    color: white;
+    font-size: larger;
+}
+.remember_me input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 30px;
+}
+.remember_me label{
+    margin-left: 10px;
+}
+label span{
+    color: rgba(137, 43, 226, 0.836);
+    font-size:large;
+    font-weight: 600;
+}
+.title{
+    max-width: 450px;
+    text-align: center;
+    margin-top: 5px;
+    position: relative;
+
+}
+.title::before{
+    content: "";
+    width: 90px;
+    height: 0.7px;
+    display: block;
+    background: rgb(129, 125, 125);
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+.title::after{
+    content: "";
+    width: 90px;
+    height: 0.7px;
+    display: block;
+    background: rgb(129, 125, 125);
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+.social_icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 22px;
+}
+
+
+
